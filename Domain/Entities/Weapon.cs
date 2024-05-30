@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class CharacterClass
+    public class Weapon
     {
-        public Guid CharacterClassId { get; set; }
+        public Guid WeaponId { get; set; }
         public string Name { get; set; }
-        public CharacterClassType ClassType { get; set; }
-        public ICollection<Skill> Skills { get; set; }
+        public int Damage { get; set; }
+        public WeaponType WeaponType { get; set; }
         public ICollection<Character> Characters { get; set; }
+
     }
 }

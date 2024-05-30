@@ -11,7 +11,9 @@ namespace Domain.Entities
     {
         public Guid SkillId { get; set; }
         public string Name { get; set; }
-        public int Damage { get; set; }
+        public int Effect { get; set; }
         public SkillType Type { get; set; }
+        public Guid CharacterClassId { get; set; }
+        public CharacterClass CharacterClass { get; set; }
     }
 }
