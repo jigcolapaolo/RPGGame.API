@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\" />
-    <Folder Include="Enum\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\API\API.csproj" />
   </ItemGroup>
 
